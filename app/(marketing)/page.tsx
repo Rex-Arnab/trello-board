@@ -10,7 +10,7 @@ const headingFont = localFont({
 });
 
 const textFont = Poppins({
-  subsets: ["latin-"],
+  subsets: ["latin"],
   variants: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
