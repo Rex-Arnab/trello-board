@@ -1,12 +1,5 @@
-import { OrganizationSwitcher } from "@clerk/nextjs";
-import React from "react";
-
 function OrganizationIdPage() {
-  return (
-    <div>
-      <OrganizationSwitcher />
-    </div>
-  );
+  return <div>Organization Page</div>;
 }
 
 export default OrganizationIdPage;
