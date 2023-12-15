@@ -10,3 +10,5 @@ const CreateBoard = z.object({
       message: "Title must be at least 3 characters long",
     }),
 });
+
+export type CreateBoardInput = z.infer<typeof CreateBoard>;
