@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useFormState } from "react-dom";
 
 function Form() {
-  const initalState = { message: null, errors: {} };
+  const initalState = { message: "", errors: {} };
   const [state, dispatch] = useFormState(createBoard, initalState);
   console.log(state);
   return (
